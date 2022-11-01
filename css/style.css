@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #d4e1ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    background-color: #fffefe;
+    width: 20%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+#image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    width: 80%;
+    border-radius: 10%;
+}
+
+#text-container {
+    width: 70%;
+    text-align: center;
+}
+
+h2 {
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1284px) {
+    #card {
+        height: 60%;
+    }
+    
+    #image {
+        width: 70%;
+    }
+
+    #text-container {
+        width: 80%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* #card {
+        height: 60%;
+    }
+    
+    #image {
+        width: 70%;
+    } */
+
+    #text-container {
+        width: 70%;
+        text-align: justify;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* #card {
+        height: 60%;
+    }
+    
+    #image {
+        width: 70%;
+    } */
+
+    #text-container {
+        width: 80%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
